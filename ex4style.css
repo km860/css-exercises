@@ -1,0 +1,8 @@
+div {
+    height: 600px;
+    width: auto;
+    background-color: gold;
+    background-image: url(imgs/right.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

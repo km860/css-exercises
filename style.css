@@ -1,0 +1,6 @@
+article p:first-of-type:first-line {
+    background-color: blue;
+}
+article:before {
+    content:url(imgs/right.png)
+}

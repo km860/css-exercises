@@ -1,0 +1,48 @@
+    h1 {
+        background-color: gray;
+    }
+    body p {
+        background-color: red;
+    }
+    div > p {
+        background-color: green;
+    }
+    div ~ p {
+        background-color: yellow;
+
+    }
+    div + p {
+        background-color: pink;
+        border: 5px solid black;
+        padding: 20px;
+        margin: 50px 20px;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        list-style-type: lower-alpha;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a[href*="apple"] {
+        color: dimgray;
+    }
+    a[href*="microsoft"] {
+        color: darkgreen;
+    }
+    a[href$="se"] {
+        color: yellow;
+    }
+    a[href*="index2"] {
+        color: darkviolet;
+    }
+    a[href=""] {
+        color: red;
+    }
+    .p-outside {
+        font-size: 30px;
+    }
+    #box-1 {
+        font-size: 25px;
+    }

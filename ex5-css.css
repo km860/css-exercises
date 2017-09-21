@@ -1,0 +1,25 @@
+header {
+    width: auto;
+    background-color: #d30b8c;
+    height: 40px;
+    margin: 0;
+}
+nav {
+    background-color: #85c215;
+    height: 45px;
+}
+main {
+    background-color: #914bd6;
+    height: 400px;
+    width: 60%;
+    float: left;
+}
+aside {
+    background-color: #51a1c6;
+    height: 400px;
+
+}
+footer {
+    background-color: #e0704b;
+    height: 30px;
+}
