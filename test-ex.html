@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<style type="text/css">
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			main {
+				width: 600px;
+				margin: 10px auto;
+				border: 1px solid lightseagreen;
+				border-radius: 5px;
+				padding: 20px;
+			}
+			.one {
+				background-color: #eeeeee;
+				color: #000;
+				padding: 10px;
+				border-radius: 5px;
+			}
+			.left {
+				height: 200px;
+				width: 80px;
+				background-color: #5ed89e;
+				line-height: 80px;
+				text-align: center;
+				border-radius: 5px;
+				float: left;
+			}
+			.right {
+				height: 160px;
+				width: 80px;
+				background-color: #38d3df;
+				line-height: 160px;
+				text-align: center;
+				border-radius: 5px;
+				float: right;
+			}
+			span {
+				display: inline-block;
+				vertical-align: middle;
+				line-height: normal;
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+			.middle {
+				height: 160px;
+				background-color: #e6cd31;
+				padding: 10px;
+				border-radius: 5px;
+				text-align: center;
+				clear: left;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="one">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Etiam semper diam at erat pulvinar, at pulvinar felis
+					blandit.Vestibulum volutpat tellus diam, consequat gravida
+					libero rhoncus ut.
+				</p>
+			</div>
+			<div class="left">
+				<strong>Float left</strong>
+			</div>
+			<div class="right">
+				<span>Tall float right block</span>
+			</div>
+			<div class="middle">
+				<p>This is the clear left element. It comes after the clear left,
+					but remains alongside the float right.
+				</p>
+			</div>
+			<div class="one">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Etiam semper diam at erat pulvinar, at pulvinar felis
+					blandit.Vestibulum volutpat tellus diam, consequat gravida
+					libero rhoncus ut.
+				</p>
+			</div>
+		</main>
+		
+	</body>
+</html>

@@ -16,4 +16,5 @@ article {
     right: 0;
     left: 0;
     padding: 1em 2em;
+    visibility: hidden;
 }
